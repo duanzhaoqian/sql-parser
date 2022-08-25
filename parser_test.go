@@ -2,10 +2,9 @@ package sql_test
 
 import (
 	"reflect"
+	"sql-parser"
 	"strings"
 	"testing"
-
-	"github.com/benbjohnson/sql-parser"
 )
 
 // Ensure the parser can parse strings into Statement ASTs.

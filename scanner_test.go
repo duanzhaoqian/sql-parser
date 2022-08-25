@@ -1,10 +1,9 @@
 package sql_test
 
 import (
+	"sql-parser"
 	"strings"
 	"testing"
-
-	"github.com/benbjohnson/sql-parser"
 )
 
 // Ensure the scanner can scan tokens correctly.
